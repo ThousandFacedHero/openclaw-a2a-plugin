@@ -1,0 +1,22 @@
+{
+  "name": "openclaw-a2a",
+  "version": "0.2.0",
+  "description": "A2A v1 protocol plugin for OpenClaw — agent discovery and interop via JSON-RPC",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThousandFacedHero/openclaw-a2a-plugin.git"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.0"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "a2a",
+  "name": "A2A Protocol",
+  "description": "A2A v1 protocol support — exposes OpenClaw as a discoverable A2A agent via JSON-RPC 2.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
